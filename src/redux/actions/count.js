@@ -1,7 +1,7 @@
 /**
  * 为 Count 组件生成 action 对象
  */
-import { INCREMENT, DECREMENT } from './constant'
+import { INCREMENT, DECREMENT } from '../constant'
 
 
 // 同步 action ,返回值为一个对象

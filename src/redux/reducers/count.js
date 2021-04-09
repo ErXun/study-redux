@@ -4,7 +4,7 @@
  * 作用： 初始化状态，加工状态
  * redux 只负责管理状态，至于状态的改变驱动着页面的重新渲染，需额外编写
  */
-import { INCREMENT, DECREMENT } from './constant'
+import { INCREMENT, DECREMENT } from '../constant'
 
 
 const initState = 0
