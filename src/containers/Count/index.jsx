@@ -51,7 +51,7 @@ class Count extends Component {
 }
 
 /* 简写 */
-export default connect(state => ({ count: state }),
+export default connect(state => ({ count: state.sum }),
   {
     // mapDispatchToProps 简写(react-redux 自动分发)
     increment: createIncrementAction,
