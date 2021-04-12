@@ -8,15 +8,13 @@ import { Provider } from 'react-redux'
 
 ReactDOM.render(
   <React.StrictMode>
+  {/* 此处使用 Provider 包裹 App 目的是为了使 APP 的后代容器组件都能接收到 store */}
     <Provider store={store}>
       <App />
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
-
 
 
 // react-redux 已封装了该方法
